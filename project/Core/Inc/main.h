@@ -57,6 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BOTI_Pin GPIO_PIN_1
+#define BOTI_GPIO_Port GPIOA
+#define BOTI_EXTI_IRQn EXTI1_IRQn
+#define BOTD_Pin GPIO_PIN_4
+#define BOTD_GPIO_Port GPIOA
+#define BOTD_EXTI_IRQn EXTI4_IRQn
+#define LEDD_Pin GPIO_PIN_7
+#define LEDD_GPIO_Port GPIOA
+#define LEDI_Pin GPIO_PIN_6
+#define LEDI_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
